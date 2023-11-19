@@ -655,6 +655,7 @@ System.out.println("Danh ");
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new trangchu().setVisible(true);
+                System.out.println("agghjfjas");
             }
         });
     }
