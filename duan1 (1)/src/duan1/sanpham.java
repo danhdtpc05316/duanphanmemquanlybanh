@@ -37,7 +37,7 @@ public class sanpham extends javax.swing.JInternalFrame {
         btnupdate1 = new javax.swing.JButton();
         txtgia_SP2 = new javax.swing.JTextField();
         jLabel4 = new javax.swing.JLabel();
-        txtten_SP1 = new javax.swing.JTextField();
+        thg = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         btnthemSP1 = new javax.swing.JButton();
         btnxoaSP1 = new javax.swing.JButton();
@@ -66,9 +66,9 @@ public class sanpham extends javax.swing.JInternalFrame {
         jLabel4.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
         jLabel4.setText("Loại sản phẩm:");
 
-        txtten_SP1.addActionListener(new java.awt.event.ActionListener() {
+        thg.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                txtten_SP1ActionPerformed(evt);
+                thgActionPerformed(evt);
             }
         });
 
@@ -127,7 +127,7 @@ public class sanpham extends javax.swing.JInternalFrame {
                         .addGap(30, 30, 30)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(txtgia_SP2, javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(txtten_SP1, javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(thg, javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(jComboBox1, 0, 411, Short.MAX_VALUE))))
                 .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(jPanel2Layout.createSequentialGroup()
@@ -140,7 +140,7 @@ public class sanpham extends javax.swing.JInternalFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(22, 22, 22)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(txtten_SP1, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(thg, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel5))
                 .addGap(30, 30, 30)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -242,9 +242,9 @@ public class sanpham extends javax.swing.JInternalFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btnupdate1ActionPerformed
 
-    private void txtten_SP1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtten_SP1ActionPerformed
+    private void thgActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_thgActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtten_SP1ActionPerformed
+    }//GEN-LAST:event_thgActionPerformed
 
     private void btnthemSP1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnthemSP1ActionPerformed
         // TODO add your handling code here:
@@ -272,9 +272,9 @@ public class sanpham extends javax.swing.JInternalFrame {
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable1;
     private javax.swing.JTable jTable2;
+    private javax.swing.JTextField thg;
     private javax.swing.JTextField txtgia_SP2;
     private javax.swing.JTextField txtgia_SP3;
-    private javax.swing.JTextField txtten_SP1;
     private javax.swing.JTextField txtten_SP2;
     // End of variables declaration//GEN-END:variables
 }
